@@ -1,0 +1,52 @@
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<!-- Bootstrap Css -->
+<link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+<!-- Icons Css -->
+<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css">
+<link href="assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script src="swall.js"></script>
+<style>
+    .layout-setting-btn{
+        display: none;
+    }
+    .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .loader-bar {
+        position: relative;
+        width: 70%;
+        height: 30px;
+        background: #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .loader-percentage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #3498db;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 10px;
+        transition: width 0.1s;
+    }
+</style>
